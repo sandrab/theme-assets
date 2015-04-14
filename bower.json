@@ -3,6 +3,6 @@
   "version": "0.0.1",
   "author": "Sandra Both",
   "ignore": [
-    "CHANGELOG.md"
+    "README.md"
   ]
 }
