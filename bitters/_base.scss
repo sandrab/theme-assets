@@ -1,0 +1,16 @@
+// Bitters 1.0.0
+// http://bitters.bourbon.io
+// Copyright 2013-2015 thoughtbot, inc.
+// MIT License
+
+// Skip import of bitter variables, because project might want to add own variables right after. So import these in the project style.scss.
+// @import "variables";
+
+// Neat Settings -- uncomment if using Neat -- must be imported before Neat
+// @import "grid-settings";
+
+@import "buttons";
+@import "forms";
+@import "lists";
+@import "tables";
+@import "typography";
