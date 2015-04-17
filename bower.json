@@ -2,6 +2,7 @@
   "name": "heartcoded-theme-assets",
   "version": "0.0.1",
   "author": "Sandra Both",
+  "main": "assets/readme.txt",
   "ignore": [
     "README.md"
   ]
