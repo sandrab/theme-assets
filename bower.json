@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "author": "Sandra Both",
   "main": [
-  	"sass/custom.scss",
-	  "js/custom.js"
+    "sass/custom.scss",
+    "js/custom.js"
   ],
   "ignore": [
     "README.md"
