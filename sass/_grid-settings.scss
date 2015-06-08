@@ -1,0 +1,15 @@
+// Removed the import of "neat-helpers" - this is done by the project style.scss, because they know the path to neat.
+
+// Neat Overrides
+// $column: modular-scale(3, 1em, $golden)	// 4.2358em / 67.7728px
+// $gutter: modular-scale(1, 1em, $golden)	// 1.618em / 25.888px
+// $grid-columns: 12;
+// $max-width: em(1088);
+
+// Neat Breakpoints
+$medium-screen: 40em;	// 640px;
+$large-screen: 60em;	// 960px;
+$max-width: 75em;		// 1200px;
+
+$medium-screen-up: new-breakpoint(min-width $medium-screen 12);
+$large-screen-up: new-breakpoint(min-width $large-screen 12);
