@@ -1,0 +1,58 @@
+// Hack to avoid deprecated warnings & unnecessary html/* stuff: see https://github.com/thoughtbot/neat/issues/322.
+$border-box-sizing: false;
+
+// Typography
+$base-font-family: $helvetica;
+$heading-font-family: $base-font-family;
+
+// Font Sizes
+$base-font-size: 1em;
+$h1-font-size: modular-scale(3);
+$h2-font-size: modular-scale(2);
+$h3-font-size: modular-scale(1);
+$h4-font-size: modular-scale(1);
+$h5-font-size: modular-scale(1);
+$h6-font-size: modular-scale(1);
+
+// Line height
+$base-line-height: 1.5;
+$heading-line-height: 1.2;
+
+// Other Sizes
+$base-border-radius: 0;
+$base-spacing: $base-line-height * 1em;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
+
+// Font Colors
+$base-background-color: #fff;
+$base-font-color: #333;
+$heading-font-color: #333;
+
+// Hyperlinks
+$action-color: #0431b4;
+$hover-color: #08088a;
+$link-underline: none;
+$hover-underline: underline;
+
+// Menu
+$menu-color: #333;
+$menu-background-color: #ddd;
+$menu-container-background-color: $menu-background-color;
+$menu-hover-color: #ddd;
+$menu-background-hover-color: #333;
+$menu-active-color: $menu-hover-color;
+$menu-background-active-color: $menu-background-hover-color;
+$menu-toggle-color: #fff;
+$menu-toggle-background-color: #999;
+$menu-padding: $small-spacing;
+
+// Border
+$base-border-color: #ddd;
+$base-border: 1px solid $base-border-color;
+
+// Forms
+$button-color: #333;
+$button-background-color: #ddd;
+$button-hover-color: #ddd;
+$button-background-hover-color: #333;
