@@ -1,0 +1,7 @@
+@import 'menus';
+
+@media screen and (min-width: $medium-screen) {
+	.main-navigation li{
+		float: left;
+	}
+}
