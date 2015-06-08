@@ -1,6 +1,4 @@
 body {
-  @include font-feature-settings("kern", "liga", "pnum");
-  -webkit-font-smoothing: antialiased;
   color: $base-font-color;
   font-family: $base-font-family;
   font-size: $base-font-size;
@@ -14,10 +12,16 @@ h4,
 h5,
 h6 {
   font-family: $heading-font-family;
-  font-size: $base-font-size;
   line-height: $heading-line-height;
   margin: 0 0 $small-spacing;
+  color: $heading-font-color;
 }
+h1{ font-size: $h1-font-size; }
+h2{ font-size: $h2-font-size; }
+h3{ font-size: $h3-font-size; }
+h4{ font-size: $h4-font-size; }
+h5{ font-size: $h5-font-size; }
+h6{ font-size: $h6-font-size; }
 
 p {
   margin: 0 0 $small-spacing;
@@ -25,17 +29,19 @@ p {
 
 a {
   color: $action-color;
-  text-decoration: none;
-  transition: color 0.1s linear;
+  text-decoration: $link-underline;
 
   &:active,
   &:focus,
   &:hover {
-    color: darken($action-color, 15%);
+	color: $hover-color;
+	text-decoration: $hover-underline;
   }
-
-  &:active,
   &:focus {
+	outline: 2px solid #c1c1c1;
+  }
+  &:active,
+  &:hover {
     outline: none;
   }
 }
